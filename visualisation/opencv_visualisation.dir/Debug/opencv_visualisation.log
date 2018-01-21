@@ -1,0 +1,4 @@
+﻿  Building Custom Rule F:/Zeiss/Demo/opencv/sources/apps/visualisation/CMakeLists.txt
+  CMake does not need to re-run because F:/Zeiss/Demo/opencv/build/apps/visualisation/CMakeFiles/generate.stamp is up-to-date.
+  opencv_visualisation.cpp
+  opencv_visualisation.vcxproj -> F:\Zeiss\Demo\opencv\build\bin\Debug\opencv_visualisationd.exe

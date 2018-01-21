@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3A4B461E-5F64-3809-B79E-76CFFA79550E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>opencv_traincascade</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\Zeiss\Demo\opencv\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencv_traincascade.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencv_traincascaded</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\Zeiss\Demo\opencv\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencv_traincascade.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencv_traincascade</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Zeiss\Demo\opencv\build;F:\Zeiss\Demo\opencv\sources\apps\traincascade\PRIVATE;F:\Zeiss\Demo\opencv\sources\apps\traincascade;F:\Zeiss\Demo\opencv\sources\include\opencv;F:\Zeiss\Demo\opencv\sources\modules\core\include;F:\Zeiss\Demo\opencv\sources\modules\imgproc\include;F:\Zeiss\Demo\opencv\sources\modules\objdetect\include;F:\Zeiss\Demo\opencv\sources\modules\imgcodecs\include;F:\Zeiss\Demo\opencv\sources\modules\highgui\include;F:\Zeiss\Demo\opencv\sources\modules\videoio\include;F:\Zeiss\Demo\opencv\sources\modules\calib3d\include;F:\Zeiss\Demo\opencv\sources\modules\flann\include;F:\Zeiss\Demo\opencv\sources\modules\features2d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;__OPENCV_BUILD=1;__OPENCV_APPS=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;__OPENCV_BUILD=1;__OPENCV_APPS=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Zeiss\Demo\opencv\build;F:\Zeiss\Demo\opencv\sources\apps\traincascade\PRIVATE;F:\Zeiss\Demo\opencv\sources\apps\traincascade;F:\Zeiss\Demo\opencv\sources\include\opencv;F:\Zeiss\Demo\opencv\sources\modules\core\include;F:\Zeiss\Demo\opencv\sources\modules\imgproc\include;F:\Zeiss\Demo\opencv\sources\modules\objdetect\include;F:\Zeiss\Demo\opencv\sources\modules\imgcodecs\include;F:\Zeiss\Demo\opencv\sources\modules\highgui\include;F:\Zeiss\Demo\opencv\sources\modules\videoio\include;F:\Zeiss\Demo\opencv\sources\modules\calib3d\include;F:\Zeiss\Demo\opencv\sources\modules\flann\include;F:\Zeiss\Demo\opencv\sources\modules\features2d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Zeiss\Demo\opencv\build;F:\Zeiss\Demo\opencv\sources\apps\traincascade\PRIVATE;F:\Zeiss\Demo\opencv\sources\apps\traincascade;F:\Zeiss\Demo\opencv\sources\include\opencv;F:\Zeiss\Demo\opencv\sources\modules\core\include;F:\Zeiss\Demo\opencv\sources\modules\imgproc\include;F:\Zeiss\Demo\opencv\sources\modules\objdetect\include;F:\Zeiss\Demo\opencv\sources\modules\imgcodecs\include;F:\Zeiss\Demo\opencv\sources\modules\highgui\include;F:\Zeiss\Demo\opencv\sources\modules\videoio\include;F:\Zeiss\Demo\opencv\sources\modules\calib3d\include;F:\Zeiss\Demo\opencv\sources\modules\flann\include;F:\Zeiss\Demo\opencv\sources\modules\features2d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\opencv_objdetect340d.lib;..\..\lib\Debug\opencv_calib3d340d.lib;..\..\lib\Debug\opencv_features2d340d.lib;..\..\lib\Debug\opencv_highgui340d.lib;..\..\lib\Debug\opencv_videoio340d.lib;..\..\lib\Debug\opencv_imgcodecs340d.lib;..\..\lib\Debug\opencv_imgproc340d.lib;..\..\lib\Debug\opencv_flann340d.lib;..\..\lib\Debug\opencv_core340d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Zeiss/Demo/opencv/build/lib/Debug/opencv_traincascaded.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Zeiss/Demo/opencv/build/bin/Debug/opencv_traincascaded.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Zeiss\Demo\opencv\build;F:\Zeiss\Demo\opencv\sources\apps\traincascade\PRIVATE;F:\Zeiss\Demo\opencv\sources\apps\traincascade;F:\Zeiss\Demo\opencv\sources\include\opencv;F:\Zeiss\Demo\opencv\sources\modules\core\include;F:\Zeiss\Demo\opencv\sources\modules\imgproc\include;F:\Zeiss\Demo\opencv\sources\modules\objdetect\include;F:\Zeiss\Demo\opencv\sources\modules\imgcodecs\include;F:\Zeiss\Demo\opencv\sources\modules\highgui\include;F:\Zeiss\Demo\opencv\sources\modules\videoio\include;F:\Zeiss\Demo\opencv\sources\modules\calib3d\include;F:\Zeiss\Demo\opencv\sources\modules\flann\include;F:\Zeiss\Demo\opencv\sources\modules\features2d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;__OPENCV_BUILD=1;__OPENCV_APPS=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;__OPENCV_BUILD=1;__OPENCV_APPS=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Zeiss\Demo\opencv\build;F:\Zeiss\Demo\opencv\sources\apps\traincascade\PRIVATE;F:\Zeiss\Demo\opencv\sources\apps\traincascade;F:\Zeiss\Demo\opencv\sources\include\opencv;F:\Zeiss\Demo\opencv\sources\modules\core\include;F:\Zeiss\Demo\opencv\sources\modules\imgproc\include;F:\Zeiss\Demo\opencv\sources\modules\objdetect\include;F:\Zeiss\Demo\opencv\sources\modules\imgcodecs\include;F:\Zeiss\Demo\opencv\sources\modules\highgui\include;F:\Zeiss\Demo\opencv\sources\modules\videoio\include;F:\Zeiss\Demo\opencv\sources\modules\calib3d\include;F:\Zeiss\Demo\opencv\sources\modules\flann\include;F:\Zeiss\Demo\opencv\sources\modules\features2d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Zeiss\Demo\opencv\build;F:\Zeiss\Demo\opencv\sources\apps\traincascade\PRIVATE;F:\Zeiss\Demo\opencv\sources\apps\traincascade;F:\Zeiss\Demo\opencv\sources\include\opencv;F:\Zeiss\Demo\opencv\sources\modules\core\include;F:\Zeiss\Demo\opencv\sources\modules\imgproc\include;F:\Zeiss\Demo\opencv\sources\modules\objdetect\include;F:\Zeiss\Demo\opencv\sources\modules\imgcodecs\include;F:\Zeiss\Demo\opencv\sources\modules\highgui\include;F:\Zeiss\Demo\opencv\sources\modules\videoio\include;F:\Zeiss\Demo\opencv\sources\modules\calib3d\include;F:\Zeiss\Demo\opencv\sources\modules\flann\include;F:\Zeiss\Demo\opencv\sources\modules\features2d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\opencv_objdetect340.lib;..\..\lib\Release\opencv_calib3d340.lib;..\..\lib\Release\opencv_features2d340.lib;..\..\lib\Release\opencv_highgui340.lib;..\..\lib\Release\opencv_videoio340.lib;..\..\lib\Release\opencv_imgcodecs340.lib;..\..\lib\Release\opencv_imgproc340.lib;..\..\lib\Release\opencv_flann340.lib;..\..\lib\Release\opencv_core340.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Zeiss/Demo/opencv/build/lib/Release/opencv_traincascade.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Zeiss/Demo/opencv/build/bin/Release/opencv_traincascade.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Zeiss\Demo\opencv\sources\apps\traincascade\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule F:/Zeiss/Demo/opencv/sources/apps/traincascade/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/Zeiss/Demo/opencv/sources -BF:/Zeiss/Demo/opencv/build --check-stamp-file F:/Zeiss/Demo/opencv/build/apps/traincascade/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/Zeiss/Demo/opencv/sources/apps/traincascade/CMakeLists.txt;F:\Zeiss\Demo\opencv\sources\apps\traincascade\CMakeLists.txt;F:\Zeiss\Demo\opencv\sources\apps\traincascade\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\Zeiss\Demo\opencv\build\apps\traincascade\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule F:/Zeiss/Demo/opencv/sources/apps/traincascade/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/Zeiss/Demo/opencv/sources -BF:/Zeiss/Demo/opencv/build --check-stamp-file F:/Zeiss/Demo/opencv/build/apps/traincascade/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/Zeiss/Demo/opencv/sources/apps/traincascade/CMakeLists.txt;F:\Zeiss\Demo\opencv\sources\apps\traincascade\CMakeLists.txt;F:\Zeiss\Demo\opencv\sources\apps\traincascade\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\Zeiss\Demo\opencv\build\apps\traincascade\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\Zeiss\Demo\opencv\sources\apps\traincascade\HOGfeatures.cpp"  />
+    <ClCompile Include="F:\Zeiss\Demo\opencv\sources\apps\traincascade\boost.cpp"  />
+    <ClCompile Include="F:\Zeiss\Demo\opencv\sources\apps\traincascade\cascadeclassifier.cpp"  />
+    <ClCompile Include="F:\Zeiss\Demo\opencv\sources\apps\traincascade\features.cpp"  />
+    <ClCompile Include="F:\Zeiss\Demo\opencv\sources\apps\traincascade\haarfeatures.cpp"  />
+    <ClCompile Include="F:\Zeiss\Demo\opencv\sources\apps\traincascade\imagestorage.cpp"  />
+    <ClCompile Include="F:\Zeiss\Demo\opencv\sources\apps\traincascade\lbpfeatures.cpp"  />
+    <ClCompile Include="F:\Zeiss\Demo\opencv\sources\apps\traincascade\old_ml_boost.cpp"  />
+    <ClCompile Include="F:\Zeiss\Demo\opencv\sources\apps\traincascade\old_ml_data.cpp"  />
+    <ClCompile Include="F:\Zeiss\Demo\opencv\sources\apps\traincascade\old_ml_inner_functions.cpp"  />
+    <ClCompile Include="F:\Zeiss\Demo\opencv\sources\apps\traincascade\old_ml_tree.cpp"  />
+    <ClCompile Include="F:\Zeiss\Demo\opencv\sources\apps\traincascade\traincascade.cpp"  />
+    <ClInclude Include="F:\Zeiss\Demo\opencv\sources\apps\traincascade\HOGfeatures.h" />
+    <ClInclude Include="F:\Zeiss\Demo\opencv\sources\apps\traincascade\boost.h" />
+    <ClInclude Include="F:\Zeiss\Demo\opencv\sources\apps\traincascade\cascadeclassifier.h" />
+    <ClInclude Include="F:\Zeiss\Demo\opencv\sources\apps\traincascade\haarfeatures.h" />
+    <ClInclude Include="F:\Zeiss\Demo\opencv\sources\apps\traincascade\imagestorage.h" />
+    <ClInclude Include="F:\Zeiss\Demo\opencv\sources\apps\traincascade\lbpfeatures.h" />
+    <ClInclude Include="F:\Zeiss\Demo\opencv\sources\apps\traincascade\old_ml.hpp" />
+    <ClInclude Include="F:\Zeiss\Demo\opencv\sources\apps\traincascade\old_ml_precomp.hpp" />
+    <ClInclude Include="F:\Zeiss\Demo\opencv\sources\apps\traincascade\traincascade_features.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\Zeiss\Demo\opencv\build\ZERO_CHECK.vcxproj">
+      <Project>{035100A1-A4FA-3522-AD96-0E46E77B99CF}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Zeiss\Demo\opencv\build\modules\calib3d\opencv_calib3d.vcxproj">
+      <Project>{030D72CA-E9CF-3CA6-A9FC-249A983B757A}</Project>
+      <Name>opencv_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Zeiss\Demo\opencv\build\modules\core\opencv_core.vcxproj">
+      <Project>{4A512562-EC79-3CE9-BCE9-81C34FFA13CB}</Project>
+      <Name>opencv_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Zeiss\Demo\opencv\build\modules\features2d\opencv_features2d.vcxproj">
+      <Project>{E24E9E45-E749-3599-91C1-B8098E687010}</Project>
+      <Name>opencv_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Zeiss\Demo\opencv\build\modules\flann\opencv_flann.vcxproj">
+      <Project>{3B204534-C5D3-3B9D-92BE-C6CD709CC43D}</Project>
+      <Name>opencv_flann</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Zeiss\Demo\opencv\build\modules\highgui\opencv_highgui.vcxproj">
+      <Project>{769BF3AA-9778-3AA3-9706-7A97053AF1F3}</Project>
+      <Name>opencv_highgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Zeiss\Demo\opencv\build\modules\imgcodecs\opencv_imgcodecs.vcxproj">
+      <Project>{DF11DDDB-AA57-3995-A38A-D1EF9C96D402}</Project>
+      <Name>opencv_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Zeiss\Demo\opencv\build\modules\imgproc\opencv_imgproc.vcxproj">
+      <Project>{98B31918-4EAC-3616-B87C-BE8DD1C5763B}</Project>
+      <Name>opencv_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Zeiss\Demo\opencv\build\modules\objdetect\opencv_objdetect.vcxproj">
+      <Project>{C830F822-1C2C-3D03-B4A8-16A3E3683991}</Project>
+      <Name>opencv_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Zeiss\Demo\opencv\build\modules\videoio\opencv_videoio.vcxproj">
+      <Project>{82AEFDA6-859F-3DE9-9E42-DEEEE0D831ED}</Project>
+      <Name>opencv_videoio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

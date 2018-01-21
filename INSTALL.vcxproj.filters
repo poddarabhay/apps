@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\Zeiss\Demo\opencv\build\CMakeFiles\246e18ab6542c2cc4b31171e369b464e\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EB571612-7BC0-3052-9451-BF15B187231C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

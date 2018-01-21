@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\Zeiss\Demo\opencv\sources\apps\annotation\opencv_annotation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Zeiss\Demo\opencv\sources\apps\annotation\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DEA384B8-3587-3FF8-8D8D-A41DF89514C4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

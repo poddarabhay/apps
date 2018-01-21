@@ -1,0 +1,15 @@
+﻿  Building Custom Rule F:/Zeiss/Demo/opencv/sources/apps/traincascade/CMakeLists.txt
+  CMake does not need to re-run because F:/Zeiss/Demo/opencv/build/apps/traincascade/CMakeFiles/generate.stamp is up-to-date.
+  HOGfeatures.cpp
+  boost.cpp
+  cascadeclassifier.cpp
+  features.cpp
+  haarfeatures.cpp
+  imagestorage.cpp
+  lbpfeatures.cpp
+  old_ml_boost.cpp
+  old_ml_data.cpp
+  old_ml_inner_functions.cpp
+  old_ml_tree.cpp
+  traincascade.cpp
+  opencv_traincascade.vcxproj -> F:\Zeiss\Demo\opencv\build\bin\Debug\opencv_traincascaded.exe

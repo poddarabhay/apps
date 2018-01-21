@@ -1,0 +1,9 @@
+﻿  Building Custom Rule F:/Zeiss/Demo/opencv/sources/apps/interactive-calibration/CMakeLists.txt
+  CMake does not need to re-run because F:/Zeiss/Demo/opencv/build/apps/interactive-calibration/CMakeFiles/generate.stamp is up-to-date.
+  calibController.cpp
+  calibPipeline.cpp
+  frameProcessor.cpp
+  main.cpp
+  parametersController.cpp
+  rotationConverters.cpp
+  opencv_interactive-calibration.vcxproj -> F:\Zeiss\Demo\opencv\build\bin\Debug\opencv_interactive-calibrationd.exe

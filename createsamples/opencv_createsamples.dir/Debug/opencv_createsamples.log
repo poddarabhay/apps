@@ -1,0 +1,3 @@
+﻿  createsamples.cpp
+F:\Zeiss\Demo\opencv\sources\apps\createsamples\createsamples.cpp(12): warning C4100: 'argv': unreferenced formal parameter
+  opencv_createsamples.vcxproj -> F:\Zeiss\Demo\opencv\build\bin\Debug\opencv_createsamplesd.exe
